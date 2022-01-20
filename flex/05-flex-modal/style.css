@@ -21,8 +21,27 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 20px 10px;
+  display: flex;
+  gap: 10px;
 }
- 
+
+.top {
+    display: flex;
+    align-items: space-between;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1 2 0%;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
